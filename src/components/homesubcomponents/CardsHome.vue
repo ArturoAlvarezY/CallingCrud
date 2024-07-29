@@ -48,12 +48,6 @@
     
     <style>
     
-    #welcome {
-      text-align: center;
-      padding: 5%;
-      font-family: "Bebas Neue", sans-serif;
-      font-style: normal;}
-    
     #instruction{
       display: flex;
       justify-content: center;

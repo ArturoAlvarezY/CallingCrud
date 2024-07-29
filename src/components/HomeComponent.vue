@@ -1,11 +1,7 @@
-<template>
-    <div class="about">
-      <h1 id="welcome">Welcome to my first CRUD with SpringBoot!</h1>
-    </div>
-    <Login id="login"></Login>
+<template>  
+    <Login></Login>
     <CardsHome></CardsHome>
-
-  </template>
+</template>
 
   <script setup>
 import CardsHome from '../components/homesubcomponents/CardsHome.vue'

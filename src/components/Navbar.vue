@@ -55,6 +55,10 @@
    .nav-link.active {
      background-color: #dcdcdc; 
    }
+
+   li{
+    color: white;
+   }
    
    @media (max-width: 768px) {
      .navbar {
