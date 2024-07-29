@@ -91,9 +91,6 @@ const submitRequest = async () => {
   }
 };
 </script>
-
-  
-  
   <style scoped>
   .card {
     border-radius: 0.5rem;
