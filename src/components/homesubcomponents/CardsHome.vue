@@ -57,7 +57,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(64,182,130);
+    background-color: #ECCFCD;
     padding: 20px;
     }
     
