@@ -58,6 +58,7 @@ const subject = ref('');
 const messageText = ref('');
 const message = ref('');
 const messageType = ref('');
+const uri = import.meta.env.VITE_API_ENDPOINT_REQUEST 
 
 const showMessage = computed(() => {
   return message.value && messageType.value;
@@ -67,14 +68,14 @@ const submitRequest = async () => {
   console.log('submitRequest called');
   try {
     const dateTime = new Date(date.value).toISOString(); 
-    console.log('Submitting data:', {
+    console.log('Submitting data:', { 
       solicitantName: name.value,
       requestDate: dateTime,
       subjectConsult: subject.value,
       descriptionConsult: messageText.value
     });
 
-    const response = await fetch('http://localhost:8080/api/requests', {
+    const response = await fetch(uri, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
